@@ -5,4 +5,4 @@ function News() {
     )
 }
 
-export default News 
+export default News;
