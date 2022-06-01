@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 
 function Details() {
 const router = useRouter()
-console.log(router.query.newsId)
+const newsId = router.query.newsId
 
   return (
     <h1>This is Detail Page </h1>
